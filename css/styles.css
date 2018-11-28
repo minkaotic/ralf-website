@@ -1,0 +1,41 @@
+
+/* ------- Fonts --------------------- */
+
+@font-face {
+    font-family: Mercury;
+    src: url('../fonts/MercuryRegular.eot');
+    src: url('../fonts/MercuryRegular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MercuryRegular.woff') format('woff'),
+         url('../fonts/MercuryRegular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: Mercury;
+    font-weight: bold;
+    src: url('../fonts/MercuryBold.eot');
+    src: url('../fonts/MercuryBold.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/MercuryBold.woff') format('woff'),
+         url('../fonts/MercuryBold.ttf') format('truetype');
+}
+
+/* ------- Main Styles --------------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mercury', Arial, sans-serif;
+  font-weight: normal;
+}
+
+header {
+  width: 100%;
+  background-color: #F06A37;
+  padding-top: 20px;
+}
+
+h1 {
+  margin: 10% 30%;
+  text-align: center;
+  color: white;
+  border-bottom: 5px solid white;
+}
