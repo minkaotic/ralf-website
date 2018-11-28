@@ -18,14 +18,7 @@
          url('../fonts/MercuryBold.ttf') format('truetype');
 }
 
-/* ------- Main Styles --------------------- */
-
-body {
-  margin: 0;
-  padding: 0;
-  font-family: 'Mercury', Arial, sans-serif;
-  font-weight: normal;
-}
+/* ------- Header Styles --------------------- */
 
 header {
   width: 100%;
@@ -64,4 +57,45 @@ ul.main-menu {
 
 .main-menu li a:hover {
   color: #000;
+}
+
+/* ------- Main Content Body Styles --------------------- */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Mercury', Arial, sans-serif;
+  font-weight: normal;
+}
+
+.welcome-page {
+  width: 75%;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+  max-width: 960px;
+}
+
+img {
+  max-width: 100%;
+}
+
+#bildungsangebot {
+  margin: 0;
+  padding: 0;
+  list-style: none;  /* remove bullet points */
+}
+
+#bildungsangebot li {
+  float: left;
+  width: 45%;  /* to make two columns */
+  margin: 2.5%;  /* per column per side, using the remaining 10% */
+  background-color: #f5f5f5;
+}
+
+#bildungsangebot li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: gray;
 }
