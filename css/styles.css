@@ -178,6 +178,24 @@ h2 {
 }
 
 
+/* ------- Kontakt Styles --------------------- */
+
+.contact-info p {
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  padding: 0 0 0 30px;  /* padding between text and images */
+  margin: 0 0 10px;
+}
+
+.contact-info .phone {
+  background-image: url('../img/phone.png');
+}
+
+.contact-info .email {
+  background-image: url('../img/mail.png');
+}
+
+
 /* ------- Footer Styles --------------------- */
 
 footer {
