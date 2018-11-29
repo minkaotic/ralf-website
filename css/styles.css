@@ -61,12 +61,12 @@ ul.main-menu {
   background-color: transparent;
   color: white;
   border: 3px dotted white;
-  padding: 0 15px 3px;
+  padding: 3px 15px 5px;
 }
 
 .main-menu li.selected a {
   color: white;
-  font-size: 1.3em;
+  font-size: 1.1em;
 }
 
 .main-menu li a:hover {
