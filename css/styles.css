@@ -20,26 +20,37 @@
 
 /* ------- Header Styles --------------------- */
 
-header {
+.header-top {
   width: 100%;
-  background-color: #F06A37;
-  padding: 20px 0 0;
+  background-color: white;
+  /* padding: 10px 0 0; */
+}
+
+#logo {
+  width: 25%;
+  max-width: 200px;
+  padding-left: 20%;
+  display: inline;
 }
 
 h1 {
+  float: right;
   margin: auto;
-  padding-top: 30px;
+  padding-top: 50px;
+  margin-right: 30%;
   max-width: 380px;
-  text-align: center;
-  text-weight: normal;
-  color: white;
+  color: #F06A37;
   font-size: 2.6em;
-  border-bottom: 5px solid white;
+  border-bottom: 5px solid #F06A37;
 }
 
 ul.main-menu {
-  padding: 30px 0 40px;
+  width: 100%;
+  background-color: #F06A37;
+  padding: 30px 0;
   text-align: center;
+  margin: 0 0 20px;
+  clear: both;
 }
 
 .main-menu li {
@@ -116,26 +127,12 @@ img {
   max-width: 960px;
 }
 
-
-/* ------- Startseite Styles --------------------- */
-
 h2 {
   padding-top: 60px;
   border-bottom: 2px dotted black;
 }
 
-#logo {
-  float: left;
-  width: 25%;
-  height:
-  max-width: 200px;
-}
-
-#intro-text {
-  float: right;
-  width: 70%;
-  padding-bottom: 40px;
-}
+/* ------- Startseite Styles --------------------- */
 
 .second-section {
   clear: both;
@@ -169,6 +166,22 @@ h2 {
   color: black;
   border-bottom: 2px solid #F06A37;
   border-radius: 0 0 5px 5px;
+}
+
+
+/* ------- About Styles --------------------- */
+
+#profile-image {
+  float: left;
+  width: 25%;
+  height:
+  max-width: 200px;
+}
+
+#about-text {
+  float: right;
+  width: 70%;
+  padding-bottom: 40px;
 }
 
 
