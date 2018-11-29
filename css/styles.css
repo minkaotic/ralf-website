@@ -61,7 +61,7 @@ ul.main-menu {
 .main-menu li.selected {
   background-color: transparent;
   color: white;
-  border: 3px dotted white;
+  border: 3px solid white;
   padding: 3px 15px 5px;
 }
 
