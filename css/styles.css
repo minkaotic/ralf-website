@@ -103,7 +103,11 @@ body {
   font-weight: normal;
 }
 
-.welcome-page {
+img {
+  max-width: 100%;
+}
+
+.main-wrapper {
   width: 75%;
   padding-left: 50px;
   padding-right: 50px;
@@ -111,8 +115,29 @@ body {
   max-width: 960px;
 }
 
-img {
-  max-width: 100%;
+
+/* ------- Startseite Styles --------------------- */
+
+h2 {
+  padding-top: 60px;
+  border-bottom: 2px dotted black;
+}
+
+#logo {
+  float: left;
+  width: 25%;
+  height:
+  max-width: 200px;
+}
+
+#intro-text {
+  float: right;
+  width: 70%;
+  padding-bottom: 40px;
+}
+
+.second-section {
+  clear: both;
 }
 
 #bildungsangebot {
@@ -140,7 +165,7 @@ img {
 
 footer {
   font-size: 0.8em;
-  clear: both;  /* prevent spillover of float from main part of page */
+  clear: both;
   margin-top: 50px;
   padding: 30px 0;
   text-align: center;
