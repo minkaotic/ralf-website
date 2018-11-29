@@ -59,6 +59,28 @@ ul.main-menu {
   color: #000;
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    font-size: 0.9em;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 6px;
+}
+
+.dropdown-content a {
+    padding: 8px 15px;
+    display: block;
+    text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
 /* ------- Main Content Body Styles --------------------- */
 
 body {
