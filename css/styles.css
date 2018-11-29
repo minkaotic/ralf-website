@@ -189,3 +189,7 @@ footer {
   color: #ccc;
   border-top: 1px dashed #F06A37;
 }
+
+footer a {
+  color: #ccc;
+}
