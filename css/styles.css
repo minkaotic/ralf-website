@@ -81,6 +81,10 @@ ul.main-menu {
   color: white;
 }
 
+.main-menu li.selected .dropdown-content a:hover {
+  color: black;
+}
+
 .main-menu li a:hover {
   color: #000;
 }
