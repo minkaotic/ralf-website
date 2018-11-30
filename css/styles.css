@@ -110,8 +110,6 @@ ul.main-menu {
 }
 
 
-
-
 /* ------- Main Content Body Styles --------------------- */
 
 body {
@@ -138,6 +136,12 @@ h2 {
   padding-top: 60px;
   border-bottom: 2px dotted black;
 }
+
+.highlight {
+  color: #F06A37;
+  margin-top: 40px;
+}
+
 
 /* ------- Startseite Styles --------------------- */
 
@@ -171,6 +175,27 @@ h2 {
   border-radius: 0 0 5px 5px;
 }
 
+
+/* ------- KiTa Styles --------------------- */
+
+ul.kita-options {
+  padding: 0;
+  text-align: center;
+}
+
+.kita-options li {
+  border-radius: 6px;
+  display: inline-block;
+  background: #F06A37;
+  padding: 8px 10px;
+  margin: 1.5%;
+  box-shadow: 0 12px 10px -7px rgba(0,0,0, .8);
+}
+
+.kita-options li a {
+  text-decoration: none;
+  color: white;
+}
 
 /* ------- About Styles --------------------- */
 
