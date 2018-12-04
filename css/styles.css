@@ -23,7 +23,9 @@
 .header-top {
   width: 100%;
   background-color: white;
-  /* padding: 10px 0 0; */
+  background:
+      linear-gradient(to right, rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)),
+      lightgrey url('../img/header_bg.jpg') no-repeat center;
 }
 
 #logo {
