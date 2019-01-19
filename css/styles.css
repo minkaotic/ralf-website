@@ -47,7 +47,8 @@
 
 ul.main-menu {
   width: 100%;
-  background-color: #F06A37;
+  background: #F06A37;
+  /* background: linear-gradient(#F06A37, 70%, #e66465); */
   padding: 30px 0;
   text-align: center;
   margin: 0 0 20px;
@@ -93,7 +94,8 @@ ul.main-menu {
     display: none;
     position: absolute;
     font-size: 0.9em;
-    background-color: #F06A37;
+    background: #F06A37;
+    /* background: linear-gradient(#F06A37, 30%, #e66465); */
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
     border-radius: 6px;
@@ -145,7 +147,7 @@ img {
 }
 
 .main-wrapper {
-  width: 75%;
+  width: 90%;
   margin: auto;
   max-width: 960px;
 }
@@ -161,12 +163,23 @@ img {
 }
 
 .callout {
-  background-color: #FFD5C3;
+  background: #FFD5C3;
+  background: linear-gradient(135deg, #FFD5C3, 70%, #CC95C0);
   padding: 5px 20px;
   border-radius: 5px;
 }
 
+@media all and (min-width: 600px) {
+  .main-wrapper {
+    width: 85%;
+  }
+}
+
 @media all and (min-width: 900px) {
+  .main-wrapper {
+    width: 75%;
+  }
+
   .page-headline {
     padding-top: 60px;
   }
@@ -194,10 +207,12 @@ img {
 }
 
 #bildungsangebot li a p {
+  height: 38px;
   margin: 0;
   padding: 5%;
   font-size: 1em;
-  color: black;
+  font-weight: bold;
+  color: #333333;
   border-bottom: 2px solid #F06A37;
   border-radius: 0 0 5px 5px;
 }
@@ -247,17 +262,35 @@ ul.kita-options {
 }
 
 .kita-options li {
+  width: 240px;
+  display: block;
   border-radius: 6px;
-  display: inline-block;
   background: #F06A37;
-  padding: 8px 10px;
-  margin: 1.5%;
+  margin: 5% auto;
+  padding: 8px;
   box-shadow: 0 10px 10px -7px rgba(0,0,0, .8);
 }
 
 .kita-options li a {
   text-decoration: none;
   color: white;
+}
+
+.bullet-list li {
+  list-style-type: square;
+  margin-bottom: 8px;
+}
+
+.materials-img {
+  border-radius: 5px;
+  border-bottom: 2px solid #F06A37;
+  margin-top: 12px;
+}
+
+@media all and (min-width: 600px) {
+  .kita-options li {
+    margin: 3% auto;
+  }
 }
 
 /* ------- About Styles --------------------- */
@@ -275,10 +308,16 @@ ul.kita-options {
   padding-bottom: 40px;
 }
 
+.main-wrapper::after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 /* ------- Kontakt Styles --------------------- */
 
-.contact-info p {
+.contact-info .phone,
+.contact-info .email {
   background-repeat: no-repeat;
   background-size: 20px 20px;
   padding: 0 0 0 30px;  /* padding between text and images */
