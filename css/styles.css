@@ -346,18 +346,108 @@ ul.workshop-options {
 #profile-image {
   float: left;
   width: 25%;
-  height:
-  max-width: 200px;
+  margin-top: 20px;
 }
 
 #profile-image img {
   border-radius: 5px;
 }
 
-#about-text {
+#qualifications {
   float: right;
   width: 70%;
-  padding-bottom: 40px;
+}
+
+.about-section {
+  margin-bottom: 50px;
+}
+
+.remove-bottom-margin {
+  margin-bottom: 0;
+}
+
+.book-cover {
+  display: block;
+  padding: 10px;
+  margin: auto;
+  border: 1px solid #F06A37;
+  border-radius: 3px;
+  box-sizing: border-box;
+}
+
+.vita h4 {
+  margin-bottom: 0;
+}
+
+.vita p {
+  margin-top: 0.3em;
+}
+
+@media all and (min-width: 600px) {
+  #profile-image {
+    max-width: 150px;
+    margin-bottom: 20px;
+  }
+
+  .about-section p {
+    font-size: 0.9em;
+  }
+
+  .publications,
+  .vita,
+  .mitgliedschaften {
+    float: left;
+    margin: 10px 0 10px;
+  }
+
+  .book-cover {
+    float: right;
+    max-width: 35%;
+    margin: 0 0 10px 10px;
+  }
+
+  .book-description h4 {
+    margin-top: 0;
+  }
+}
+
+@media all and (min-width: 700px) {
+  #qualifications {
+    margin-bottom: 80px;
+  }
+}
+
+@media all and (min-width: 900px) {
+  .about-headline {
+    margin-top: 10px;
+  }
+
+  #profile-image {
+    width: 20%;
+  }
+
+  #qualifications {
+    width: 75%;
+    margin-bottom: 45px;
+  }
+
+  .book-cover {
+    max-width: 230px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  #profile-image {
+    width: 15%;
+  }
+
+  #qualifications {
+    width: 80%;
+  }
+
+  .book-description {
+    line-height: 1.5;
+  }
 }
 
 /* ------- Kontakt Styles --------------------- */
