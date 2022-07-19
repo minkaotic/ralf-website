@@ -479,6 +479,9 @@ ul.workshop-options {
   background-image: url('../img/mail.png');
 }
 
+hr {
+  margin: 40px 0;
+}
 
 /* ------- Footer Styles --------------------- */
 
