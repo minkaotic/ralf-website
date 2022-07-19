@@ -354,17 +354,32 @@ ul.workshop-options {
 
 /* ------- About Styles --------------------- */
 
-#profile-image {
+li {
+  line-height: 1.7em;
+  font-size: 0.9em;
+}
+
+.publication-title {
+  font-weight: bold;
+}
+
+.profile-image {
   float: left;
   width: 25%;
   margin-top: 20px;
 }
 
-#profile-image img {
+.profile-image img {
   border-radius: 5px;
 }
 
-#qualifications {
+.profile-image--franzi img {
+  border-style: solid;
+  border-color: #F06A37;
+  border-width: 21px 8px 13px 8px;
+}
+
+.qualifications {
   float: right;
   width: 70%;
 }
@@ -394,8 +409,18 @@ ul.workshop-options {
   margin-top: 0.3em;
 }
 
+.about:last-of-type {
+  margin-top: 40px;
+}
+
+.about::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 @media all and (min-width: 600px) {
-  #profile-image {
+  .profile-image {
     max-width: 150px;
     margin-bottom: 20px;
   }
@@ -406,9 +431,14 @@ ul.workshop-options {
 
   .publications,
   .vita,
-  .mitgliedschaften {
+  .mitgliedschaften,
+  .schwerpunkte {
     float: left;
     margin: 10px 0 10px;
+  }
+
+  .schwerpunkte {
+    margin-top: -15px;
   }
 
   .book-cover {
@@ -423,7 +453,7 @@ ul.workshop-options {
 }
 
 @media all and (min-width: 700px) {
-  #qualifications {
+  .qualifications {
     margin-bottom: 80px;
   }
 }
@@ -433,11 +463,11 @@ ul.workshop-options {
     margin-top: 10px;
   }
 
-  #profile-image {
+  .profile-image {
     width: 20%;
   }
 
-  #qualifications {
+  .qualifications {
     width: 75%;
     margin-bottom: 45px;
   }
@@ -448,11 +478,11 @@ ul.workshop-options {
 }
 
 @media all and (min-width: 1200px) {
-  #profile-image {
+  .profile-image {
     width: 15%;
   }
 
-  #qualifications {
+  .qualifications {
     width: 80%;
   }
 
