@@ -409,16 +409,6 @@ li {
   margin-top: 0.3em;
 }
 
-.about:last-of-type {
-  margin-top: 40px;
-}
-
-.about::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 @media all and (min-width: 600px) {
   .profile-image {
     max-width: 150px;
