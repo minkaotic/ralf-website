@@ -499,6 +499,19 @@ li {
   background-image: url('../img/mail.png');
 }
 
+.address {
+  margin-top: 25px;
+}
+
+.address p {
+  margin: 6px 0;
+}
+
+.address .company {
+  font-weight: bold;
+  font-size: 18px;
+}
+
 hr {
   margin: 40px 0;
 }
